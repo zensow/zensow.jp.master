@@ -1,44 +1,11 @@
 - avatar: images/@stock/member-1.jpg
-  name: Mark Wayne
-  position: Founder
+  name: 懸田 剛 (Kakeda Takeshi)
+  position: 代表
   socials:
-    - link: http://twitter.com
+    - link: http://twitter.com/kkd
       icon: twitter
-    - link: http://facebook.com
+    - link: http://facebook.com/takeshi.kakeda
       icon: facebook
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-2.jpg
-  name: Kate Holms
-  position: Creative Director
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://dribbble.com
-      icon: dribbble
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-3.jpg
-  name: Tome Hason
-  position: Designer
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://tumblr.com
-      icon: tumblr
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
-  name: Lily Whrem
-  position: Developer
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    東京で15年間、ソフトウェアエンジニア、コンサルタントとして活躍。特にアジャイルは2000年から取り組んでおり、国内で様々な講演・トレーニングを行う。2008年にはアジャイルの国際会議「Agile Conference 2008」に登壇する。その時発表した「Tangible Bug Tracking Using LEGO Bricks」はマンチェスター大学のソフトウェアサイエンスの試験問題にも取り上げられた。
+    2010年より愛媛に移住し、アジャイルと地方価値創造のシナジーに取り組んでいる。

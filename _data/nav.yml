@@ -4,10 +4,10 @@
 - name: About
   path: about.html
   section_id: about
-- name: Services
+- name: サービス
   path: services.html
   section_id: services
-- name: Portfolio
+- name: 実績
   path: portfolio.html
   section_id: portfolio
   children:
@@ -15,9 +15,9 @@
       path: portfolio.html
     - name: Portfolio item
       path: portfolio-item.html
-- name: Contact
+- name: 問い合わせ
   path: contact.html
   section_id: contact
-- name: Blog
+- name: ブログ
   path: blog/
   section_id: blog
