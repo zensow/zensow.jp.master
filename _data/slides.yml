@@ -1,0 +1,53 @@
+slides:
+  - bg: images/@stock/slide-quarterback.jpg
+    klass: centered-text
+    small_title:
+      klass: bottom-to-top
+      text: ビジネスの変化に適応できているか？
+    title:
+      klass: bottom-to-top
+      text: 俊敏に柔軟にビジネス価値を生み出すためには
+    buttons:
+      klass: bottom-to-top
+      items:
+        - klass: boxed
+          text: View Features
+          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
+        - text: Purchase Now
+          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  - bg: images/@stock/slide-hiker.jpg
+    small_title:
+      klass: bottom-to-top
+      text: 我々は何のために集まっているのか？
+    title:
+      klass: bottom-to-top
+      text: 人が自ら動きだすビジョンを作るには
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Learn More
+          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  - bg: images/@stock/slide-team.jpg
+    small_title:
+      klass: bottom-to-top
+      text: あなたのチームはうまく機能していますか？
+    title:
+      klass: bottom-to-top
+      text: 単なる人の集団を、本当のチームに変えるには
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Learn More
+          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
+  - bg: images/@stock/slide-woman.jpg
+    small_title:
+      klass: bottom-to-top
+      text: ワクワクしている？ トキメいている？
+    title:
+      klass: bottom-to-top
+      text: あなたの生きがい・ライフワークを見つける
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: Learn More
+          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou

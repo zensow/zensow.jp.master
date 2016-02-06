@@ -7,17 +7,6 @@
 - name: サービス
   path: services.html
   section_id: services
-- name: 実績
-  path: portfolio.html
-  section_id: portfolio
-  children:
-    - name: Portfolio
-      path: portfolio.html
-    - name: Portfolio item
-      path: portfolio-item.html
 - name: 問い合わせ
   path: contact.html
   section_id: contact
-- name: ブログ
-  path: blog/
-  section_id: blog
