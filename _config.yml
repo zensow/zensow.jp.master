@@ -18,4 +18,8 @@ paginate: 3
 paginate_path: "blog/page:num"
 
 collections:
-  - services
+  portfolios:
+    output: true
+    permalink: /portfolios/:path
+  services:
+    output: false

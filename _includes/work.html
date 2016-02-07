@@ -1,10 +1,9 @@
 <div class="full" style="background: #f5f5f5;">
   <div class="row">
     <div class="large-12 columns">
-      {% include section-header.html title="Our works" %}
+      {% include section-header.html title="実績" %}
       <div class="spacing"></div>
-      <p>
-      {% include work-desc.html %}
+      <p>公開資料、研修テキスト、公開可能なプロジェクト、その他実績をご紹介します。
       </p>
       <div class="three spacing"></div>
     </div>
@@ -12,14 +11,14 @@
 
   <div class="mod modGallery">
     <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-      {% for work in page.works %}
-        <li class="{{ work.klass }}">
-          <a href='{{ work.link_to }}'>
-            <img alt="" src="{{ work.image }}" />
+      {% for portfolio in site.portfolios %}
+        <li class="{{ portfolio.klass }}">
+          <a href='{{ portfolio.url }}'>
+            <img alt="" src="{{ portfolio.image }}" />
             <div class='overlay'>
               <div class='thumb-info'>
-                <h3>{{ work.title }}</h3>
-                <p>{{ work.desc }}</p>
+                <h3>{{ portfolio.title }}</h3>
+                <p>{{ portfolio.desc }}</p>
               </div>
             </div>
           </a>

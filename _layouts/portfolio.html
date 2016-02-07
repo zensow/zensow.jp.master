@@ -1,0 +1,67 @@
+---
+layout: default
+title: Portfolio
+section_id: portfolio
+---
+
+
+<div class='full parallax' style='background-image: url(/images/@stock/portfolio-header-bg.png); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="実績" tagline="研修、講演、プロジェクト、etc" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedSlider'>
+        <div class='slides'>
+          {% for image in page.image %}
+          <div class='slide'>
+            <img alt="" src="{{image}}" />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+  <div class='row'>
+    <div class='large-8 columns'>
+      <h3>{{page.title}}</h3>
+      {{content}}
+      <div class='spacing'></div>
+      <a class='button small' href='{{page.link_to}}'>詳細を見る</a>
+    </div>
+    <div class='large-4 columns'>
+      <ul class='info'>
+        <li>
+          <strong>説明:</strong>
+          {{page.desc}}
+        </li>
+        <li>
+          <strong>日付:</strong>
+          {{page.date}}
+        </li>
+        <li>
+          <div class='spacing'></div>
+          <a href='{{page.previous.url}}' title='previous'>
+            <i class='icon-left-open'></i>
+          </a>
+          <a href='/portfolios/' title='back to work list'>
+            <i class='icon-layout'></i>
+          </a>
+          <a href='{{page.next.url}}' title='next'>
+            <i class='icon-right-open'></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

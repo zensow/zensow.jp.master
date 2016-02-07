@@ -1,0 +1,67 @@
+---
+layout: default
+title: Portfolio
+section_id: portfolio
+---
+<div class='full parallax' style='background-image: url(/images/@stock/portfolio-header-bg.png); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="実績" tagline="講演、研修、出版物、プロジェクト、その他実績をご紹介します" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='lecture' href='#'>講演</a>
+          </li>
+          <li>
+            <a data-cat='seminar' href='#'>研修</a>
+          </li>
+          <li>
+            <a data-cat='print' href='#'>出版物</a>
+          </li>
+          <li>
+            <a data-cat='project' href='#'>プロジェクト</a>
+          </li>
+          <li>
+            <a data-cat='development' href='#'>開発</a>
+          </li>
+          <li>
+            <a data-cat='event' href='#'>イベント</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
+
+        {% for portfolio in site.portfolios %}
+          <li class="{{ portfolio.klass }}">
+            <a href='{{ portfolio.url }}'>
+              <img alt="" src="{{ portfolio.image[0] }}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{ portfolio.title }}</h3>
+                  <p>{{ portfolio.desc }}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+
+      </ul>
+
+    </div>
+  </div>
+
+  <div class='four spacing'></div>
+</div>
