@@ -14,4 +14,4 @@ date: 2010-10-30 00:00:00
 
 Jeff Patton氏の**ユーザーストーリーマッピング**について、日本で初めて紹介・解説したプレゼンテーションです。
 
-[SlideShare](http://www.slideshare.com/)で３万PVを越えました。
+[SlideShare](http://www.slideshare.com/)で３万PVを越えました。(2016/02 現在)
