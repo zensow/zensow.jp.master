@@ -14,7 +14,7 @@
       {% for portfolio in site.portfolios %}
         <li class="{{ portfolio.klass }}">
           <a href='{{ portfolio.url }}'>
-            <img alt="" src="{{ portfolio.image }}" />
+            <img alt="" src="{{ portfolio.image[0] }}" />
             <div class='overlay'>
               <div class='thumb-info'>
                 <h3>{{ portfolio.title }}</h3>
