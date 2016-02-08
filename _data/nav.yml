@@ -7,7 +7,7 @@
 - name: サービス
   path: services.html
   section_id: services
-- name: 実績
+- name: 活動実績
   path: portfolios
   section_id: portfolio  
 - name: 問い合わせ

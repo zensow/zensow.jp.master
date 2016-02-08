@@ -1,10 +1,7 @@
 # Site settings
-title: Zensow - 全創
+title: Zensow - ゼンソー
 email: info@zensow.jp
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # ゼンソーは愛媛県松山市にあるアジャイル・スクラム、パタン・ランゲージを使った、プロダクトづくり、仕組みづくり、人づくり、地域づくりを行う個人事業主です。
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: zensow_jp
