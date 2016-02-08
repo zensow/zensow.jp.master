@@ -42,7 +42,7 @@ module JB
 end #JB
 
 desc "All deploy"
-task :alldeploy => [:push_src, :clean, :build, :deploy]
+task :alldeploy => [:push_src, :clean, :build, :sync, :deploy]
 
 desc "Build all posts and pages."
 task :build do
@@ -54,15 +54,21 @@ task :clean do
   sh "rm -rf _site/*"
 end
 
+desc "Sync _site to static file."
+task :sync do
+  puts "! Copy static file from _site to zensow.github.com.master"
+  sh "rsync -av --exclude='.git' --delete _site/ ../zensow.github.io/"
+end
+
 # Usage: rake deploy
 desc "Begin a push static file to GitHub"
 task :deploy do
-  puts "! Copy static file from _site to zensow.github.com.master"
-  sh "rsync -av --delete _site/* ../zensow.github.io/"
+# puts "! Copy static file from _site to zensow.github.com.master"
+# sh "rsync -av --delete-before _site/* ../zensow.github.io/"
   puts "! Change directory master"
   cd "../zensow.github.io" do
     puts "! Push to master branch of GitHub"
-    sh "git add --all *"
+    sh "git add -A"
     message = "deploy at #{Time.now}"
     begin
       sh "git commit -m \"#{message}\""
