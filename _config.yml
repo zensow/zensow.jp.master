@@ -1,7 +1,7 @@
 # Site settings
-title: Zensow - ゼンソー
+title: Zensow - ゼンソウ
 email: info@zensow.jp
-description: > # ゼンソーは愛媛県松山市にあるアジャイル・スクラム、パタン・ランゲージを使った、プロダクトづくり、仕組みづくり、人づくり、地域づくりを行う個人事業主です。
+description: > # ゼンソウは愛媛県松山市にあるアジャイル・スクラム、パタン・ランゲージを使った、プロダクトづくり、仕組みづくり、人づくり、地域づくりを行う個人事業主です。
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: zensow_jp
